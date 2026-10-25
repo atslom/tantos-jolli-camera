@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tantos Jolly",
+        "description": "Connect one call panel or camera channel from your Tantos Jolly hub. Add the integration again for each additional channel.",
+        "data": {
+          "host": "Hub IP address",
+          "username": "Username",
+          "password": "Password",
+          "channel": "Channel"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not log in. Check the IP address, username and password -- and make sure the official vhOme app isn't currently connected to the panel (it holds the only session slot)."
+    },
+    "abort": {
+      "already_configured": "This channel on this hub is already configured."
+    }
+  }
+}
